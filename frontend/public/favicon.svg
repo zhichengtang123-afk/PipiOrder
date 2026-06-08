@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- 粉色背景 -->
+  <circle cx="60" cy="60" r="56" fill="#ff8fab"/>
+  <!-- 左耳朵 - 白色蓬松 -->
+  <ellipse cx="26" cy="42" rx="16" ry="24" fill="#f5f5f0" transform="rotate(-12 26 42)"/>
+  <ellipse cx="26" cy="44" rx="10" ry="16" fill="#ffe5ec" transform="rotate(-12 26 44)"/>
+  <!-- 右耳朵 - 白色蓬松 -->
+  <ellipse cx="94" cy="42" rx="16" ry="24" fill="#f5f5f0" transform="rotate(12 94 42)"/>
+  <ellipse cx="94" cy="44" rx="10" ry="16" fill="#ffe5ec" transform="rotate(12 94 44)"/>
+  <!-- 头部主轮廓 -->
+  <circle cx="60" cy="56" r="32" fill="white"/>
+  <!-- 头顶蓬松毛 -->
+  <ellipse cx="60" cy="30" rx="22" ry="14" fill="white"/>
+  <ellipse cx="44" cy="34" rx="12" ry="10" fill="white"/>
+  <ellipse cx="76" cy="34" rx="12" ry="10" fill="white"/>
+  <!-- 脸部 -->
+  <ellipse cx="60" cy="60" rx="26" ry="24" fill="#fff8f0"/>
+  <!-- 眼睛 - 大圆黑眼 -->
+  <circle cx="44" cy="54" r="11" fill="#1a1a2e"/>
+  <circle cx="76" cy="54" r="11" fill="#1a1a2e"/>
+  <!-- 眼睛高光 -->
+  <circle cx="48" cy="50" r="5" fill="white"/>
+  <circle cx="80" cy="50" r="5" fill="white"/>
+  <circle cx="42" cy="57" r="2" fill="white"/>
+  <circle cx="74" cy="57" r="2" fill="white"/>
+  <!-- 鼻子 -->
+  <ellipse cx="60" cy="66" rx="5" ry="3.5" fill="#1a1a2e"/>
+  <!-- 嘴 -->
+  <path d="M55 69 Q60 76 65 69" fill="none" stroke="#1a1a2e" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="60" y1="69" x2="60" y2="72" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- 舌头 -->
+  <ellipse cx="60" cy="73" rx="4" ry="5" fill="#ff6b8a"/>
+  <!-- 腮边毛 -->
+  <ellipse cx="30" cy="62" rx="8" ry="12" fill="white" transform="rotate(-8 30 62)"/>
+  <ellipse cx="90" cy="62" rx="8" ry="12" fill="white" transform="rotate(8 90 62)"/>
+  <!-- 腮红 -->
+  <circle cx="34" cy="64" r="5" fill="#ffb3c6" opacity="0.5"/>
+  <circle cx="86" cy="64" r="5" fill="#ffb3c6" opacity="0.5"/>
+  <!-- 蝴蝶结 -->
+  <path d="M50 90 L60 95 L70 90 L70 100 L60 95 L50 100 Z" fill="#ff8fab"/>
+  <circle cx="60" cy="95" r="3.5" fill="#e56a8a"/>
+  <!-- 身体 -->
+  <ellipse cx="60" cy="102" rx="24" ry="14" fill="white"/>
+  <!-- 小脚 -->
+  <ellipse cx="42" cy="106" rx="7" ry="5" fill="white"/>
+  <ellipse cx="78" cy="106" rx="7" ry="5" fill="white"/>
+  <!-- 肉垫 -->
+  <ellipse cx="42" cy="108" rx="3" ry="2" fill="#ffb3c6"/>
+  <ellipse cx="78" cy="108" rx="3" ry="2" fill="#ffb3c6"/>
+</svg>

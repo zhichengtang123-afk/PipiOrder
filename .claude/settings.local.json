@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(rm -f src/components/HelloWorld.vue src/assets/vue.svg public/vite.svg)",
+      "Bash(mkdir -p public)",
+      "Bash(npx vite *)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "WebSearch",
+      "WebFetch(domain:freesvg.org)",
+      "WebFetch(domain:iconscout.com)",
+      "WebFetch(domain:svgsilh.com)"
+    ]
+  }
+}
