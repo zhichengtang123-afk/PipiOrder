@@ -67,7 +67,8 @@ async function saveDish() {
     price: parseFloat(form.value.price),
     category_id: parseInt(form.value.category_id),
     description: form.value.description,
-    is_available: form.value.is_available
+    is_available: form.value.is_available,
+    image_url: form.value.image_url || null
   }
 
   try {
