@@ -40,7 +40,7 @@ async function login() {
 <template>
   <div class="login-page">
     <div class="login-card">
-      <div class="login-icon">🐶</div>
+      <div class="login-icon"><img src="/logo.jpg" alt="皮皮" class="login-img" /></div>
       <h1 class="login-title">管理员登录</h1>
       <p class="login-subtitle">🐾 皮皮点菜 · 后台管理</p>
       <form @submit.prevent="login">
@@ -82,6 +82,15 @@ async function login() {
 .login-icon {
   font-size: 48px;
   margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+.login-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 36px;
+  object-fit: cover;
+  border: 3px solid var(--primary-light);
 }
 .login-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; color: var(--text); }
 .login-subtitle { font-size: 13px; color: var(--text-secondary); margin-bottom: 28px; }

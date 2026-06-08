@@ -148,7 +148,7 @@ async function handleImageUpload(event) {
   <div class="admin-page">
     <header class="admin-header">
       <div>
-        <h1>🐶 菜品管理</h1>
+        <h1><img src="/logo.jpg" alt="皮皮" class="admin-logo" /> 菜品管理</h1>
         <p class="admin-subtitle">皮皮点菜 · 管理后台</p>
       </div>
       <div class="header-actions">
@@ -254,7 +254,14 @@ async function handleImageUpload(event) {
   justify-content: space-between;
   align-items: center;
 }
-.admin-header h1 { font-size: 20px; font-weight: 700; }
+.admin-header h1 { font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.admin-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.3);
+}
 .admin-subtitle { font-size: 12px; opacity: 0.8; margin-top: 2px; }
 .header-actions { display: flex; gap: 8px; }
 .nav-btn { background: rgba(255,255,255,0.25) !important; color: white !important; backdrop-filter: blur(4px); }

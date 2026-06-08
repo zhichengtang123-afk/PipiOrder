@@ -75,7 +75,7 @@ const filteredDishes = computed(() => {
   <div class="menu-page">
     <header class="header">
       <div class="header-content">
-        <div class="header-icon">🐶</div>
+        <div class="header-icon"><img src="/logo.jpg" alt="皮皮" class="header-img" /></div>
         <div>
           <h1 class="title">皮皮点菜</h1>
           <p class="subtitle">✨ 今天想吃什么呢？</p>
@@ -156,6 +156,13 @@ const filteredDishes = computed(() => {
   justify-content: center;
   font-size: 28px;
   backdrop-filter: blur(4px);
+  overflow: hidden;
+}
+.header-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
 }
 .title { font-size: 24px; font-weight: 700; letter-spacing: 1px; }
 .subtitle { font-size: 13px; opacity: 0.9; margin-top: 2px; }
